@@ -12,9 +12,15 @@ namespace Atividade_2
 {
     public partial class Endereco : Form
     {
+        Endereco endereco = new Endereco();
         public Endereco()
         {
             InitializeComponent();
+        }
+
+        private void Endereco_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
