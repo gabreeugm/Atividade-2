@@ -1,15 +1,20 @@
-﻿public class Endereco
-    {
-    //atributos da classe
-    public string logradouro;
-    public int numero;
-    public string bairro;
-    public string cep;
-    public string complemento;
-    public string cidade;
-    public string estado;
-    public string pais;
-    public string ponto_ref;
-    public string horario_entrega; 
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
+namespace Atividade_2
+{
+    public partial class Endereco : Form
+    {
+        public Endereco()
+        {
+            InitializeComponent();
+        }
     }
+}

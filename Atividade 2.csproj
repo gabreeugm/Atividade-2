@@ -59,7 +59,13 @@
       <DependentUpon>Cadastro_Produtos.cs</DependentUpon>
     </Compile>
     <Compile Include="ClasseCadastro.cs" />
-    <Compile Include="Endereco.cs" />
+    <Compile Include="ClasseEndereco.cs" />
+    <Compile Include="Endereco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Endereco.Designer.cs">
+      <DependentUpon>Endereco.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fornecedor.cs">
       <SubType>Form</SubType>
     </Compile>
