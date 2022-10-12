@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Atividade_2
 {
-    public partial class Form1 : Form
+    public partial class Cadastro_Produtos : Form
     {
-        public Form1()
+        public Cadastro_Produtos()
         {
             InitializeComponent();
         }
