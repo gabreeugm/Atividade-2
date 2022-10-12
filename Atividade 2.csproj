@@ -60,6 +60,7 @@
     </Compile>
     <Compile Include="ClasseCadastro.cs" />
     <Compile Include="ClasseEndereco.cs" />
+    <Compile Include="ClasseProduto.cs" />
     <Compile Include="Endereco.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +95,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro_Produtos.resx">
+      <DependentUpon>Cadastro_Produtos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Endereco.resx">
       <DependentUpon>Endereco.cs</DependentUpon>
