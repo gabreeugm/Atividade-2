@@ -12,7 +12,7 @@ namespace Atividade_2
 {
     public partial class Principal : Form
     {
-        Login form2 = new Login(); //Tela login
+         //Tela login
         Cadastro form4 = new Cadastro(); //Tela cadastro
         public Principal()
         {

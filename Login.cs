@@ -30,6 +30,10 @@ namespace Atividade_2
                 this.Hide();
                 form3.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Login Ou senha Invalidos","Cuidado",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
         }
     }
 }
