@@ -12,14 +12,24 @@ namespace Atividade_2
 {
     public partial class Login : Form
     {
+        Principal form3= new Principal();
         public Login()
         {
             InitializeComponent();
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            //Sanduba
+            Application.Exit();
+        }
+
+        private void btnEntrar_Click(object sender, EventArgs e)
+        {
+            if (txtLogin.Text == "magalu@gmail.com" && txtSenha.Text =="magalu123")
+            {
+                this.Hide();
+                form3.ShowDialog();
+            }
         }
     }
 }

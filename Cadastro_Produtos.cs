@@ -26,5 +26,10 @@ namespace Atividade_2
         {
             Application.Exit();
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

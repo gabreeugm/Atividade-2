@@ -29,5 +29,10 @@ namespace Atividade_2
             timer1.Enabled = false; //Desativa o timer
             form2.ShowDialog(); //Apresenta a tela de login
         }
+
+        private void Splash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
