@@ -16,5 +16,10 @@ namespace Atividade_2
         {
             InitializeComponent();
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            //Sanduba
+        }
     }
 }
