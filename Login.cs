@@ -31,5 +31,10 @@ namespace Atividade_2
                 form3.ShowDialog();
             }
         }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

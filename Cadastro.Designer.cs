@@ -58,6 +58,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Red;
@@ -74,7 +75,7 @@
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Location = new System.Drawing.Point(12, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
+            this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "Nome";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -85,7 +86,7 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.Location = new System.Drawing.Point(223, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 16);
+            this.label3.Size = new System.Drawing.Size(58, 16);
             this.label3.TabIndex = 4;
             this.label3.Text = "Telefone";
             // 
@@ -95,7 +96,7 @@
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label4.Location = new System.Drawing.Point(418, 75);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 16);
+            this.label4.Size = new System.Drawing.Size(48, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "Celular";
             // 
@@ -105,7 +106,7 @@
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label5.Location = new System.Drawing.Point(12, 173);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 16);
+            this.label5.Size = new System.Drawing.Size(39, 16);
             this.label5.TabIndex = 6;
             this.label5.Text = "Email";
             // 
@@ -115,7 +116,7 @@
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Location = new System.Drawing.Point(223, 173);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 16);
+            this.label6.Size = new System.Drawing.Size(93, 16);
             this.label6.TabIndex = 9;
             this.label6.Text = "Crie sua senha";
             // 
@@ -125,7 +126,7 @@
             this.label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label7.Location = new System.Drawing.Point(418, 173);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(122, 16);
+            this.label7.Size = new System.Drawing.Size(123, 16);
             this.label7.TabIndex = 10;
             this.label7.Text = "Confirme sua senha";
             // 
@@ -156,7 +157,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(12, 257);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(126, 16);
+            this.label8.Size = new System.Drawing.Size(127, 16);
             this.label8.TabIndex = 16;
             this.label8.Text = "Data de Nascimento";
             // 
@@ -165,7 +166,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(223, 257);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 16);
+            this.label9.Size = new System.Drawing.Size(29, 16);
             this.label9.TabIndex = 17;
             this.label9.Text = "CPF";
             // 
@@ -174,7 +175,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(418, 257);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(50, 16);
+            this.label10.Size = new System.Drawing.Size(51, 16);
             this.label10.TabIndex = 18;
             this.label10.Text = "Gênero";
             // 
@@ -183,7 +184,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(12, 329);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(184, 16);
+            this.label11.Size = new System.Drawing.Size(185, 16);
             this.label11.TabIndex = 19;
             this.label11.Text = "Por onde conheceu a magalu?";
             // 
@@ -270,6 +271,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label13.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Red;
@@ -284,6 +286,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(623, 479);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.textBox10);

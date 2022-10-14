@@ -14,7 +14,6 @@ namespace Atividade_2
     public partial class Cadastro : Form
     {
         ClasseCadastro cadastro = new ClasseCadastro();
-        Principal form3 = new Principal();
         public Cadastro()
         {
             InitializeComponent();
@@ -91,8 +90,9 @@ namespace Atividade_2
 
         private void label13_Click(object sender, EventArgs e)
         {
+            var formPrincipal = new Principal();
+            formPrincipal.Show();
             this.Hide();
-            form3.ShowDialog();
         }
     }
 }
