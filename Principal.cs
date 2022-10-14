@@ -12,7 +12,7 @@ namespace Atividade_2
 {
     public partial class Principal : Form
     {
-        Login form2 = new Login(); //Tela login
+        //Login form2 = new Login(); //Tela login
         Cadastro form4 = new Cadastro(); //Tela cadastro
         Endereco form5 = new Endereco();
         Cadastro_Produtos form6 = new Cadastro_Produtos();
@@ -44,7 +44,8 @@ namespace Atividade_2
 
         private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            form7.ShowDialog();
         }
 
         private void Principal_Load(object sender, EventArgs e)

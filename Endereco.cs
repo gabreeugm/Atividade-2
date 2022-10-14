@@ -48,8 +48,8 @@ namespace Atividade_2
         private void button1_Click(object sender, EventArgs e)
         {
             //Mensagem de aviso para preencher os campos
-            if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" ||
-               textBox6.Text == "" || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "" )
+            if(textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || 
+               textBox6.Text == "" || textBox7.Text == "" )
             {
                 MessageBox.Show("Preencha Todos os campos para continuar", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -64,17 +64,36 @@ namespace Atividade_2
                 endereco.complemento = textBox5.Text;
                 endereco.cidade = textBox6.Text;
                 endereco.estado = textBox7.Text;
-                endereco.ponto_ref = textBox8.Text;
+                endereco.pais = textBox8.Text;
+                endereco.ponto_ref = textBox9.Text;
                 endereco.horario_entrega = comboBox1.Text;
 
-                MessageBox.Show("Os dados foram salvos !", "Conluído", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Os dados foram salvos !", "Conluído", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
 
 
 
 
-        }   
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //consultando dados
+
+            string consultar = "Logradouro: " + endereco.logradouro + ", " + endereco.numero +
+                               "\nBairro: " + endereco.bairro +
+                               "\nCEP: " + endereco.cep +
+                               "\nComplemento: " + endereco.complemento +
+                               "\nCidade: " + endereco.cidade +
+                               "\nEstado: " + endereco.estado +
+                               "\nPaís: " + endereco.pais +
+                               "\nPonto de Referência: " + endereco.ponto_ref +
+                               "\nHorário de Preferência: " + endereco.horario_entrega;
+
+
+            MessageBox.Show(consultar, "Consulta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
     }
 }

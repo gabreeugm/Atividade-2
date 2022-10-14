@@ -96,5 +96,10 @@ namespace Atividade_2
             formPrincipal.Show();
             this.Hide();
         }
+
+        private void Fornecedor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

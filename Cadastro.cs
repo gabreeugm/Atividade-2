@@ -14,7 +14,7 @@ namespace Atividade_2
     public partial class Cadastro : Form
     {
         ClasseCadastro cadastro = new ClasseCadastro();
-        Principal form3 = new Principal();
+        
         public Cadastro()
         {
             InitializeComponent();
