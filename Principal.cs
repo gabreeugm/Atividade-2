@@ -14,6 +14,7 @@ namespace Atividade_2
     {
          //Tela login
         Cadastro form4 = new Cadastro(); //Tela cadastro
+        Cadastro_Produtos form6 = new Cadastro_Produtos(); // Tela Cadastro Produtos
         public Principal()
         {
             InitializeComponent();
@@ -32,7 +33,8 @@ namespace Atividade_2
 
         private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); //Fecha forms
+            form6.ShowDialog(); //Apresenta form de Cadastro de Produtos
         }
 
         private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
