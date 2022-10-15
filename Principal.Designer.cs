@@ -53,7 +53,7 @@
             this.label1.Location = new System.Drawing.Point(246, 12);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(17, 18);
-            this.label1.TabIndex = 2;
+            this.label1.TabIndex = 1;
             this.label1.Text = "X";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -74,23 +74,23 @@
             this.toolStripDropDownButton1});
             this.toolStrip1.Location = new System.Drawing.Point(17, 47);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(41, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(63, 25);
             this.toolStrip1.TabIndex = 5;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripDropDownButton1
             // 
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroToolStripMenuItem,
             this.endereçoToolStripMenuItem,
             this.produtoToolStripMenuItem,
             this.fornecedorToolStripMenuItem});
             this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(29, 22);
-            this.toolStripDropDownButton1.Text = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(51, 22);
+            this.toolStripDropDownButton1.Text = "Menu";
             // 
             // cadastroToolStripMenuItem
             // 
@@ -123,11 +123,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(84, 113);
+            this.label3.Location = new System.Drawing.Point(78, 113);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 16);
+            this.label3.Size = new System.Drawing.Size(146, 16);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Olá, Seja Bem Vindo";
+            this.label3.Text = "Olá, Seja Bem Vindo Na";
             // 
             // pictureBox1
             // 
