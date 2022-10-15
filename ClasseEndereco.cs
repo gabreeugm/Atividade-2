@@ -46,6 +46,7 @@
 
     }
 
+    //metodos get e set
     public string getLogradouro() { return logradouro; }   
     public void setLogradouro(string p_logradouro) { this.logradouro = p_logradouro; }  
 

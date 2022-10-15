@@ -68,7 +68,7 @@ namespace Atividade_2
                 endereco.ponto_ref = textBox9.Text;
                 endereco.horario_entrega = comboBox1.Text;
 
-                MessageBox.Show("Os dados foram salvos !", "Conluído", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Os dados foram salvos !", "Concluído", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
 

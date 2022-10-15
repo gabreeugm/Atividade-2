@@ -40,7 +40,7 @@ namespace Atividade_2
         {
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" //se não tiver algum campo preenchido
                 || textBox4.Text == "" || textBox5.Text == "" || textBox6.Text == ""
-                || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "" )
+                || textBox7.Text == "" || textBox8.Text == ""  )
             {
                 MessageBox.Show("Por favor preencha os campos corretamente!", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
