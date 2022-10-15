@@ -79,8 +79,8 @@ namespace Atividade_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //consultando dados
 
+            //consultando dados
             string consultar = "Logradouro: " + endereco.logradouro + ", " + endereco.numero +
                                "\nBairro: " + endereco.bairro +
                                "\nCEP: " + endereco.cep +
