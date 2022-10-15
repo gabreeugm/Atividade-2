@@ -14,13 +14,13 @@ namespace Atividade_2
     public partial class Cadastro : Form
     {
         ClasseCadastro cadastro = new ClasseCadastro();
-        
+
         public Cadastro()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e) 
+        private void label1_Click(object sender, EventArgs e)
         {
             Application.Exit();
 
@@ -40,7 +40,7 @@ namespace Atividade_2
         {
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" //se não tiver algum campo preenchido
                 || textBox4.Text == "" || textBox5.Text == "" || textBox6.Text == ""
-                || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "" || textBox10.Text == "")
+                || textBox7.Text == "" || textBox8.Text == "" || textBox9.Text == "" )
             {
                 MessageBox.Show("Por favor preencha os campos corretamente!", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
@@ -57,12 +57,12 @@ namespace Atividade_2
                     cadastro.setTELEFONE(textBox2.Text);
                     cadastro.setCELULAR(textBox3.Text);
                     cadastro.setEMAIL(textBox4.Text);
-                    cadastro.setGENERO(textBox10.Text);
+                    cadastro.setGENERO(comboBox1.Text);
                     cadastro.setSENHA(textBox5.Text);
                     cadastro.setCHECASENHA(textBox6.Text);
                     cadastro.setDATA_NASC(textBox7.Text);
                     cadastro.setCPF(textBox8.Text);
-                    cadastro.setONDE_CONHECEU(textBox9.Text);
+                    cadastro.setONDE_CONHECEU(comboBox2.Text);
                     MessageBox.Show("Dados armazenados com sucesso!", "Prosseguir", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
             }
@@ -91,10 +91,55 @@ namespace Atividade_2
 
         private void label13_Click(object sender, EventArgs e)
         {
+            //voltar forms
             var formPrincipal = new Principal();
             formPrincipal.Show();
             this.Hide();
-            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //limpa os campos preenchidos
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            textBox8.Clear();
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            //mostra a senha
+            if(textBox5.PasswordChar=='*') //caractere comum para senha
+            {
+                button5.BringToFront(); //trás o botão de esconder para frente
+                textBox5.PasswordChar = '\0'; //caractere vazio \0
+                textBox6.PasswordChar = '\0'; //caractere vazio \0
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //esconde a senha
+            if (textBox5.PasswordChar == '\0') //caractere vazio \0
+            {
+                button4.BringToFront(); //trás o botão de ver para frente
+                textBox5.PasswordChar = '*'; //caractere comum para senha
+                textBox6.PasswordChar = '*'; //caractere comum para senha               
+            }
         }
     }
 }

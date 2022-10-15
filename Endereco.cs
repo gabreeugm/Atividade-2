@@ -95,5 +95,10 @@ namespace Atividade_2
             MessageBox.Show(consultar, "Consulta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

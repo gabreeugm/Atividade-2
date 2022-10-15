@@ -141,5 +141,17 @@
   <ItemGroup>
     <None Include="Resources\magalu-logo-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\777494-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\777494-2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hide-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-30.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
