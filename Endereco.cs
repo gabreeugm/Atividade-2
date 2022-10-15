@@ -92,12 +92,30 @@ namespace Atividade_2
                                "\nHorário de Preferência: " + endereco.horario_entrega;
 
 
+            //menssagem com os dados
             MessageBox.Show(consultar, "Consulta", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //botão de limpar as textbox
+            
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            textBox8.Clear();
+            textBox9.Clear();
+            textBox1.Focus();
 
         }
     }
